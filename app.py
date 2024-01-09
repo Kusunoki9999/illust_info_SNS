@@ -1,7 +1,7 @@
 from flask import Flask, redirect, render_template
 from flask import request, Markup
 import os, time
-import sns_user as user, sns_data as data
+import sns_data as user, sns_data as data
 
 # Flaskインスタンスと暗号化キーの指定
 app = Flask(__name__)
